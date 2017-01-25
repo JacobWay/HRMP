@@ -7,7 +7,9 @@
     "doc": "doc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot --inline",
+    "build": "rm -rf ./dist/* && webpack"
   },
   "keywords": [
     "HRMP",
@@ -21,8 +23,13 @@
     "jquery": "^3.1.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-env": "^1.3.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-react": "^6.22.0",
     "eslint": "^3.14.0",
     "eslint-plugin-react": "^6.9.0",
-    "webpack": "^1.14.0"
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   }
 }

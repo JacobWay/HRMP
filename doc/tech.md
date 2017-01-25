@@ -7,3 +7,6 @@ Developing Procedure:
     
     elsint configure
     webpack configure
+    install babel.js
+    install babel-preset-react
+    install babel-loader
