@@ -4,3 +4,5 @@ Developing Procedure:
     npm init -y
     build project directory
     install libraries: jquery, bootstrap
+    
+    webpack configure
