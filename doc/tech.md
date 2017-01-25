@@ -5,4 +5,5 @@ Developing Procedure:
     build project directory
     install libraries: jquery, bootstrap
     
+    elsint configure
     webpack configure
