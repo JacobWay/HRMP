@@ -1,3 +1,10 @@
+Components Hierarchy:
+RecruitmentTable
+    TitleRow
+    DepartmentTable
+        DepartmentRow
+        PositionRow
+
 Developing Procedure:
     git init
     make .gitignore file
