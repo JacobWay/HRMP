@@ -7,7 +7,7 @@ module.exports = {
         filename: "scripts/[name].bundle.js",
         publicPath: "/dist"
     },
-    devSever: {
+    devServer: {
         contentBase: ".",
         host: "0.0.0.0",
         port: 9999
