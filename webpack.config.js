@@ -1,6 +1,8 @@
 module.exports = {
+    devtool: "source-map",
     entry: {
-        t: "./src/scripts/t.js"
+        t: "./src/scripts/t.js",
+        main: "./src/scripts/main.js"
     },
     output: {
         path: "./dist",

@@ -17,3 +17,5 @@ Developing Procedure:
     install babel.js
     install babel-preset-react
     install babel-loader
+
+    build a static version in React
