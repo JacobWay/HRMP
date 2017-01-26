@@ -8,11 +8,11 @@ class TitleRow extends Component{
 
     render(){
         return(
-            <h3 class="mainTitle big">
+            <h3 class="mainTitle big_">
                 招聘职位
                 <span 
                     onClick={this.handleClick} 
-                    class="clearCheck subTitle small actionable"
+                    class="clearCheck subTitle small_ actionable"
                 >
                     清空
                 </span>

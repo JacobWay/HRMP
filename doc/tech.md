@@ -26,6 +26,7 @@ Developing Procedure:
 
     write scss style
 
+    retrieve the data from local json api
     
 Problems:
 
