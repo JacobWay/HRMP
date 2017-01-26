@@ -16,6 +16,7 @@ class DepartmentRow extends Component{
         const selector = ".department_position_" + e.target.dataset.departmentSn;
 
         $(selector).toggle("slow");
+        $(target).toggleClass("fa-angle-down").toggleClass("fa-angle-up");
     }
 
     render(){
