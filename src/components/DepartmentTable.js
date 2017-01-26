@@ -11,10 +11,19 @@ class DepartmentTable extends Component{
         departments.forEach( (item, index) => {
             const {department, num, data} = item;
             const positions = data;
-            const departmentRowElement = (<DepartmentRow department={department} num={num} key={_.uniqueId("department_")} />);
+            const departmentRowElement = (<DepartmentRow 
+                department={department} 
+                num={num} 
+                departmentSN={index}
+                key={_.uniqueId("department_")} 
+                />);
             rows.push(departmentRowElement);
-            positions.forEach( (position, index) => {
-                const positionRowElement = (<PositionRow {...position} key={_.uniqueId("position_")} />);
+            positions.forEach( (position, i) => {
+                const positionRowElement = (<PositionRow 
+                    {...position} 
+                    departmentSN={index}
+                    key={_.uniqueId("position_")} 
+                    />);
                 rows.push(positionRowElement);
             } );
         } );

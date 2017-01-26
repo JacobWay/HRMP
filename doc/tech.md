@@ -1,3 +1,6 @@
+Name Standards:
+    event handler: handle<EventName>
+
 Components Hierarchy:
 RecruitmentTable
     TitleRow
@@ -19,3 +22,8 @@ Developing Procedure:
     install babel-loader
 
     build a static version in React
+
+Problems:
+
+    ?? Unknown prop `departmentSN` on <input> tag. Remove this prop from the element. For details, see https://fb.me/react-unknown-prop
+    !! Using data attribute
