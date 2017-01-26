@@ -1,3 +1,7 @@
+body {
+    color: #ccdadd;
+}
+
 #recruitment {
     float: left;
     min-width: 380px;
@@ -96,4 +100,8 @@ tr.subTitle >th {
     text-align: center;
     line-height: 28px;
     background: #516a76;
+}
+
+.menuAngle {
+    margin-left: 15px;
 }

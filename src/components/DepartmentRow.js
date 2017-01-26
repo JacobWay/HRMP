@@ -11,6 +11,13 @@ class DepartmentRow extends Component{
         } );
     }
 
+    handleClick = (e) => {
+        const target = e.target;
+        const selector = ".department_position_" + e.target.dataset.departmentSn;
+
+        $(selector).toggle("slow");
+    }
+
     render(){
         const {department, num, departmentSN} = this.props;
         return(
@@ -23,6 +30,12 @@ class DepartmentRow extends Component{
                         onChange={this.handleChange}/>
                     <label for={departmentSN}></label>
                     {department}
+                    <i class="menuAngle fa fa-angle-down" 
+                        aria-hidden="true"
+                        data-department-sn={departmentSN}
+                        onClick={this.handleClick}
+                    >
+                    </i>
                 </th>
                 <th class="positionNum">
                     <span class="titleNum">{num}</span>

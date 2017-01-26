@@ -4,7 +4,7 @@ class PositionRow extends Component{
     render(){
         const {position, num, departmentSN, positionId} = this.props;
         return(
-            <tr>
+            <tr class={"department_position_" + departmentSN}>
                 <td class="positionCell">
                     <input 
                         type="checkbox" 

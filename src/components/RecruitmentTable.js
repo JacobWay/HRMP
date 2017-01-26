@@ -3,6 +3,7 @@ import React, {Component} from "react";
 import TitleRow from "./TitleRow.js";
 import DepartmentTable from "./DepartmentTable.js";
 
+require("bootstrap/dist/css/bootstrap.css");
 import BaseCSS from "../scss/base.scss";
 import MainCSS from "../scss/main.scss";
 
