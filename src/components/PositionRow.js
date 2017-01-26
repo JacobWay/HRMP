@@ -2,17 +2,19 @@ import React, {Component} from "react";
 
 class PositionRow extends Component{
     render(){
-        const {position, num, departmentSN} = this.props;
+        const {position, num, departmentSN, positionId} = this.props;
         return(
             <tr>
-                <th>
+                <td class="positionCell">
                     <input 
                         type="checkbox" 
-                        class={"positionRow " + "department_" + departmentSN}
+                        id={positionId}
+                        class={"recruitmentCheckbox positionRow " + "department_" + departmentSN}
                     />
+                    <label for={positionId}></label>
                     {position}
-                </th>
-                <th>{num}</th>
+                </td>
+                <td class="positionNum">{num}</td>
             </tr>
         );
     }

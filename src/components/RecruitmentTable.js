@@ -3,6 +3,8 @@ import React, {Component} from "react";
 import TitleRow from "./TitleRow.js";
 import DepartmentTable from "./DepartmentTable.js";
 
+import BaseCSS from "../scss/base.scss";
+import MainCSS from "../scss/main.scss";
 
 class RecruitmentTable extends Component{
     constructor(props){

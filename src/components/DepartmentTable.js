@@ -22,6 +22,7 @@ class DepartmentTable extends Component{
                 const positionRowElement = (<PositionRow 
                     {...position} 
                     departmentSN={index}
+                    positionId={_.uniqueId("position_")}
                     key={_.uniqueId("position_")} 
                     />);
                 rows.push(positionRowElement);

@@ -22,8 +22,15 @@ Developing Procedure:
     install babel-loader
 
     build a static version in React
+    build the interactive logic
 
+    write scss style
+
+    
 Problems:
 
     ?? Unknown prop `departmentSN` on <input> tag. Remove this prop from the element. For details, see https://fb.me/react-unknown-prop
     !! Using data attribute
+
+    ?? Measuring screen elements in pixels
+    !! Built-in screen capture command (Cmd-Shift-4)

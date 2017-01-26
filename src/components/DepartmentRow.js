@@ -14,14 +14,19 @@ class DepartmentRow extends Component{
     render(){
         const {department, num, departmentSN} = this.props;
         return(
-            <tr>
+            <tr class="subTitle">
                 <th>
                     <input type="checkbox"
+                        class="recruitmentCheckbox"
+                        id={departmentSN}
                         data-department-sn={departmentSN}
                         onChange={this.handleChange}/>
+                    <label for={departmentSN}></label>
                     {department}
                 </th>
-                <th>{num}</th>
+                <th class="positionNum">
+                    <span class="titleNum">{num}</span>
+                </th>
             </tr>
         );
     }
