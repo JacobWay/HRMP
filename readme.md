@@ -1,13 +1,40 @@
-# Side Bar: 
+# Side Bar Component: 
 - A react component of side bar.
 
-## Developing:
+# Acceptance Criteria:
+- Go to Github demo url to check the result. [Github demo Address: ](https://jacobway.github.io/HRMP/src/pages/main.html)https://jacobway.github.io/HRMP/src/pages/main.html
+- Go to Github source code address to check the code quality. [Github source code address: ](https://github.com/JacobWay/HRMP)https://github.com/JacobWay/HRMP
+- Install from source code.
 ```bash
-git clone
-cd
+git clone https://github.com/JacobWay/HRMP.git
+cd HRMP
+sudo npm install
+npm run dev
+open http://127.0.0.1:9999/src/pages/main.html
+```
+- No bug by self-tested
+- Full implementation of the requirements and extra requirements
+
+# Time Tracking:
+- Read document: ~6 hours
+- Build development environment: ~3 hours
+- Coding: ~4 hours
+- Total: ~13 hours
+
+# Address:
+- [Github demo Address: ](https://jacobway.github.io/HRMP/src/pages/main.html)https://jacobway.github.io/HRMP/src/pages/main.html
+- [Github source code address: ](https://github.com/JacobWay/HRMP)https://github.com/JacobWay/HRMP
+
+# Developing:
+```bash
+git clone https://github.com/JacobWay/HRMP.git
+cd HRMP
 sudo npm install
 npm run dev
 ```
+# Development Environment:
+- OS: Mac OS X Yosemite
+- Tools Stack: webpack + es6 babel.js + react.js + AJAX
 
 # Requirements:
 
@@ -28,4 +55,5 @@ npm run dev
 9. ES6 if you like.
 
 ## My Requirements:
-1. Collapse menu.
+1. Expand & Collapse menu.
+2. Add Readme UI component
