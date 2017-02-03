@@ -2,8 +2,10 @@
 - A react component of side bar.
 
 # Acceptance Criteria:
-- Go to Github demo url to check the result. [Github demo Address: ](https://jacobway.github.io/HRMP/src/pages/main.html)https://jacobway.github.io/HRMP/src/pages/main.html
-- Go to Github source code address to check the code quality. [Github source code address: ](https://github.com/JacobWay/HRMP)https://github.com/JacobWay/HRMP
+- Go to Github demo url to check the result. 
+- [Github demo Address: ](https://jacobway.github.io/HRMP/src/pages/main.html)https://jacobway.github.io/HRMP/src/pages/main.html
+- Go to Github source code address to check the code quality. 
+- [Github source code address: ](https://github.com/JacobWay/HRMP)https://github.com/JacobWay/HRMP
 - Install from source code.
 ```bash
 git clone https://github.com/JacobWay/HRMP.git
@@ -11,15 +13,16 @@ cd HRMP
 sudo npm install
 npm run dev
 open http://127.0.0.1:9999/src/pages/main.html
+npm run test
 ```
 - No bug by self-tested
 - Full implementation of the requirements and extra requirements
 
-# Time Tracking:
+# Time Tracking of Implementation of Task Requirements:
 - Read document: ~6 hours
 - Build development environment: ~3 hours
-- Coding: ~4 hours
-- Total: ~13 hours
+- Coding: ~5 hours
+- Total: ~14 hours
 
 # Address:
 - [Github demo Address: ](https://jacobway.github.io/HRMP/src/pages/main.html)https://jacobway.github.io/HRMP/src/pages/main.html
@@ -31,6 +34,7 @@ git clone https://github.com/JacobWay/HRMP.git
 cd HRMP
 sudo npm install
 npm run dev
+npm run test:watch
 ```
 # Development Environment:
 - OS: Mac OS X Yosemite
@@ -57,3 +61,4 @@ npm run dev
 ## My Extra Requirements:
 1. Expand & Collapse menu.
 2. Add Readme UI component
+3. Test react component
