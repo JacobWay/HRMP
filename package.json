@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --hot --inline",
-    "build": "rimraf ./dist && cross-env NODE_ENV=production webpack"
+    "build": "rimraf ./HRMP && cross-env NODE_ENV=production webpack"
   },
   "keywords": [
     "HRMP",
