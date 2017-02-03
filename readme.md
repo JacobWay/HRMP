@@ -34,7 +34,7 @@ npm run dev
 ```
 # Development Environment:
 - OS: Mac OS X Yosemite
-- Tools Stack: webpack + es6 babel.js + react.js + AJAX
+- Tools Stack: webpack + es6 babel.js + react.js + AJAX + Git + Vim
 
 # Requirements:
 
@@ -54,6 +54,6 @@ npm run dev
 8. No need of the libarary of data layer, like flux, or redux.
 9. ES6 if you like.
 
-## My Requirements:
+## My Extra Requirements:
 1. Expand & Collapse menu.
 2. Add Readme UI component

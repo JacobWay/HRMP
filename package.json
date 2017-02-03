@@ -7,7 +7,8 @@
     "doc": "doc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
     "dev": "webpack-dev-server --hot --inline",
     "build": "rimraf ./dist && cross-env NODE_ENV=production webpack"
   },
@@ -30,6 +31,7 @@
   "devDependencies": {
     "axios": "^0.15.3",
     "babel-cli": "^6.22.2",
+    "babel-jest": "^18.0.0",
     "babel-loader": "^6.2.10",
     "babel-plugin-react-html-attrs": "^2.0.0",
     "babel-plugin-transform-class-properties": "^6.22.0",
@@ -37,11 +39,14 @@
     "babel-preset-react": "^6.22.0",
     "cross-env": "^3.1.4",
     "css-loader": "^0.26.1",
+    "enzyme": "^2.7.1",
     "eslint": "^3.14.0",
     "eslint-plugin-react": "^6.9.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
+    "jest": "^18.1.0",
     "node-sass": "^4.3.0",
+    "react-addons-test-utils": "^15.4.2",
     "rimraf": "^2.5.4",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
