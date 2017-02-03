@@ -35,3 +35,6 @@ Problems:
 
     ?? Measuring screen elements in pixels
     !! Built-in screen capture command (Cmd-Shift-4)
+
+Caveats:
+    Don't use table, if you have extra layout requirements.
