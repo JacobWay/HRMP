@@ -1,3 +1,5 @@
+[![build status](https://travis-ci.org/JacobWay/HRMP.svg?branch=master&style=flat-square)](https://travis-ci.org/JacobWay/HRMP)
+
 # Side Bar Component: 
 - A react component of side bar.
 
