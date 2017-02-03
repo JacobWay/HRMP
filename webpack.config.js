@@ -3,7 +3,7 @@ var debug = process.env.NODE_ENV !== "production";
 var webpack = require("webpack");
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var fontPublicPath = "/HRMP/dist/";
-var fontOutputPath = path.resolve(__dirname, "HRMP/dist/font");
+var fontOutputPath = path.resolve(__dirname, "dist/font");
 
 
 /*
@@ -92,7 +92,7 @@ module.exports = {
         main: "./src/scripts/main.js"
     },
     output: {
-        path: "./HRMP/dist",
+        path: "./dist",
         filename: "scripts/[name].bundle.js",
         publicPath: "/HRMP/dist"
     },
