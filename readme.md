@@ -40,7 +40,7 @@ npm run test:watch
 ```
 # Development Environment:
 - OS: Mac OS X Yosemite
-- Tools Stack: webpack + es6 babel.js + react.js + AJAX + Git + Vim
+- Tools Stack: webpack + es6 babel.js + react.js + jest + AJAX + git + vim + ...
 
 # Requirements:
 
