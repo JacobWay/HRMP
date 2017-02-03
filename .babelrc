@@ -1,14 +1,10 @@
 {
   "presets": [
-    "stage-0",
-    "node5",
+    "env",
     "react"
   ],
   "plugins": [
-    "transform-react-display-name",
-    "transform-decorators",
-    "transform-class-properties",
-    "transform-es2015-classes",
-    "react-html-attrs"
+    "react-html-attrs",
+    ["transform-class-properties", { "spec": true }]
   ]
 }
